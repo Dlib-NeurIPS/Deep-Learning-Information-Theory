@@ -1,9 +1,7 @@
-# Deep-Learning-Information-Theory
 
-This repository contains the code of the paper "A Probabilistic Representation for Deep Learning:Delving into The Information Bottleneck Principle".
-
-# Deep Learning and Information Theory
+# Deep Learning and Information Bottleneck Principle
 This repository contains the code of the paper "A Probabilistic Representation for Deep Learning:Delving into The Information Bottleneck Principle" submitted to NeurIPS 2021. 
+
 ## Gibbs distribution explanation
 ### test_MLP_Gibbs.py has two functionalities
 1. Generating four synthetic images (i.e., image0, image1, image2, image3), which are sampled from a Guassian distribution and sorted by two diagonal directions in the ascedning or descending order. Each image dimension is 32 * 32.
