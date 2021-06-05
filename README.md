@@ -2,6 +2,19 @@
 # Deep Learning and Information Bottleneck Principle
 This repository contains the code of the paper "A Probabilistic Representation for Deep Learning:Delving into The Information Bottleneck Principle" submitted to NeurIPS 2021. 
 
+## Prerequisites
+Python 3.7
+
+Tensorflow 1.15
+
+Keras 2.2.4
+
+Numpy
+
+Matplotlib
+
+Please note that the code is senstive to the version of the above packages. We recommond to design an anaconda virtual environment to install all the above packages to make sure the code can be successfully reimpelmented.
+
 ## Gibbs distribution explanation
 ### test_MLP_Gibbs.py has two functionalities
 1. Generating four synthetic images (i.e., image0, image1, image2, image3), which are sampled from a Guassian distribution and sorted by two diagonal directions in the ascedning or descending order. Each image dimension is 32 * 32.
