@@ -13,7 +13,7 @@ Numpy
 
 Matplotlib
 
-Please note that the code is senstive to the version of the above packages. We recommond to design an anaconda virtual environment to install all the above packages to make sure the code can be successfully reimpelmented.
+Please note that the code is senstive to the version of the above packages. To make sure the code can be successfully reimpelmented, we recommond to create an anaconda virtual environment to install all the above packages.
 
 ## Gibbs distribution explanation
 ### test_MLP_Gibbs.py has two functionalities
