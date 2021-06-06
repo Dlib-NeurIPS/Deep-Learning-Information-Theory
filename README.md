@@ -19,7 +19,7 @@ All the codes are placed in the three folders: (i) Simulations on the bechmark d
 
 ## Simulations on the bechmark dataset
 ### test_MLP_Gibbs_IT.py 
-It generates the Figure 3, Figure 4 (Right), and Figure 5.
+It can generate the Figure 3, Figure 4 (Right), and Figure 5 in the paper.
 
 ## Comparison to non-parametric models
 
