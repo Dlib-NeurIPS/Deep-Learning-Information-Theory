@@ -19,7 +19,11 @@ All the codes are placed in the three folders: (i) Simulations on the bechmark d
 
 ## Simulations on the bechmark dataset
 ### test_MLP_Gibbs_IT.py 
-It can generate the Figure 3, Figure 4 (Right), and Figure 5 in the paper.
+It generates the Figure 3, Figure 4, and Figure 5 in the paper.
+
+Please change the value of the parameter 'n_filters' and 'n_neurons' to generate a DNN with different nuerons in the first hidden layer and the second hidden layer.
+
+Please change the value of the parameter 'save_model_index' to visualize the learned weights in different epochs.
 
 ## Comparison to non-parametric models
 
