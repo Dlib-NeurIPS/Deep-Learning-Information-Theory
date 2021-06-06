@@ -13,9 +13,9 @@ Numpy
 
 Matplotlib
 
-Please note that the code is senstive to the version of the above packages. To make sure the code can be successfully reimpelmented, we recommond to create an anaconda virtual environment to install all the above packages.
+Please note that the code is senstive to the version of the above packages. To make sure the code can be successfully reimpelmented, we recommond to create an anaconda virtual environment to install all the above packages with the aforementioned versions.
 
-## Gibbs distribution explanation
+## Simulations on the bechmark dataset
 ### test_MLP_Gibbs.py has two functionalities
 1. Generating four synthetic images (i.e., image0, image1, image2, image3), which are sampled from a Guassian distribution and sorted by two diagonal directions in the ascedning or descending order. Each image dimension is 32 * 32.
 
@@ -26,6 +26,11 @@ We design a MLP with two fully connected hidden layers. The first hidden layer h
 2. Showing the distribution of the first fully connected hidden layer as Gibbs distribution.
 
 ![mlp_f1_gibbs](Simulations/Img_MLP_F1_Gibbs.png)
+
+## Comparison to non-parametric models
+
+## Simulations on the bechmark dataset, namely MNIST and Fashion-MNIST
+
 
 
 
