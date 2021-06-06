@@ -3,15 +3,11 @@
 This repository contains the code of the paper "A Probabilistic Representation for Deep Learning:Delving into The Information Bottleneck Principle" submitted to NeurIPS 2021. 
 
 ## Prerequisites
-Python 3.7
-
-Tensorflow 1.15
-
-Keras 2.2.4
-
-Numpy
-
-Matplotlib
+* Python 3.7
+* Tensorflow 1.15
+* Keras 2.2.4
+* Numpy
+* Matplotlib
 
 Please note that the code is senstive to the version of the above packages. To make sure the code can be successfully reimpelmented, we recommond to create an anaconda virtual environment, in which install all the packages with the aforementioned versions.
 
@@ -31,11 +27,8 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 
 * **Study the effect of the hyper-parameter of empirical distributions, namely the bin size, on the mutual information estimation in MLP1 and MLP2, and save results into local folders**
   * test_ComputeMI_bin_relu_01.py
-
   * test_ComputeMI_bin_relu_02.py
-
   * test_ComputeMI_bin_tanh_01.py
-
   * test_ComputeMI_bin_tahn_02.py
 
 * **Load the saved results from the local folder and generates Figure 8, Figure 9**
@@ -43,11 +36,8 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 
 * **Studying the effect of the hyper-parameter of KDE, namely the noise variance, on the mutual information estimation in MLP1 and MLP2, and save results into local folders**
   * test_ComputeMI_kde_relu_01.py
-
   * test_ComputeMI_kde_relu_02.py
-
   * test_ComputeMI_kde_tanh_01.py
-
   * test_ComputeMI_kde_tahn_02.py
 
 * **Load the saved results from the local folder and generates Figure 10, Figure 11 in the paper**
