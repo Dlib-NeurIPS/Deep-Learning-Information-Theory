@@ -23,6 +23,10 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 
 ## Comparison to non-parametric models
 
+### The reference code are based on the previous work by Tishby and Saxe, et al.
+ * https://github.com/artemyk/ibsgd (Andrew Saxe, Artemy Kolchinsky, et al. On the information bottleneck theory of deep learning. In ICLR, 2018.)
+ * https://github.com/ravidziv/IDNNs (Ravid. Shwartz-Ziv and Naftali Tishby, Opening the Black Box of Deep Neural Networks via Information, In Arxiv, 2017.)
+
 ### Non-parametric models are senstive to hyper-parameters
 
 * **Study the effect of the hyper-parameter of empirical distributions, namely the bin size, on the mutual information estimation in MLP1 and MLP2, and save results into local folders**
