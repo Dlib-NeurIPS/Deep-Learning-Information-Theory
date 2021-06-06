@@ -15,13 +15,12 @@ Matplotlib
 
 Please note that the code is senstive to the version of the above packages. To make sure the code can be successfully reimpelmented, we recommond to create an anaconda virtual environment, in which install all the packages with the aforementioned versions.
 
+All the codes are placed in the three folders: (i) Simulations on the bechmark dataset, (ii) Comparison to non-parametric models, and (iii) Simulations on the bechmark dataset.
+
 ## Simulations on the bechmark dataset
-### test_MLP_Gibbs.py has two functionalities
-1. Generating four synthetic images (i.e., image0, image1, image2, image3), which are sampled from a Guassian distribution and sorted by two diagonal directions in the ascedning or descending order. Each image dimension is 32 * 32.
+### test_MLP_Gibbs_IT.py 
+It generates the Figure 3, Figure 4 (Right), and Figure 5.
 
-![synthetic_mlp](Simulations/Img_synthetic_MLP.png)
-
-We design a MLP with two fully connected hidden layers. The first hidden layer has 12 neurons, and each neuron has 1024 weights. We reshape the dimension of the weights as 32 * 32 and visualize the weights of all the neurons in the first hidden layer in the above picture.
 
 2. Showing the distribution of the first fully connected hidden layer as Gibbs distribution.
 
