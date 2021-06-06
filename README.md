@@ -23,7 +23,7 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 
 ## Comparison to non-parametric models
 
-### The reference code are based on the previous work by Tishby and Saxe, et al.
+### The reference code are based on the previous work by Tishby and Kolchinsky, et al.
  * https://github.com/artemyk/ibsgd (Andrew Saxe, Artemy Kolchinsky, et al. On the information bottleneck theory of deep learning. In ICLR, 2018.)
  * https://github.com/ravidziv/IDNNs (Ravid. Shwartz-Ziv and Naftali Tishby, Opening the Black Box of Deep Neural Networks via Information, In Arxiv, 2017.)
 
