@@ -62,7 +62,9 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 * **Load the saved results from the local folder and generates Figure 12, Figure 13**
   * show_ComputeMI_.py
   * Please change the value of the parameter 'activation_func' to show the results of MLP1 or MLP2.
-  
+
+### Activations are not i.i.d.
+
 ## Simulations on the bechmark dataset, namely MNIST and Fashion-MNIST
 
 ### test_MLP_Gibbs_IT_MNIST.py
