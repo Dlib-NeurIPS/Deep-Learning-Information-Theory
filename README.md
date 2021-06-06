@@ -9,7 +9,7 @@ This repository contains the code of the paper "A Probabilistic Representation f
 * Numpy
 * Matplotlib
 
-Please note that the code is senstive to the version of the above packages. To make sure the code can be successfully reimpelmented, we recommond to create an anaconda virtual environment, in which install all the packages with the aforementioned versions.
+To make sure the code can be successfully reimpelmented, we recommond to create an anaconda virtual environment, in which install all the packages with the aforementioned versions. Please note that the code is senstive to the version of the above packages. 
 
 All the codes are placed in the three folders: (i) Simulations on the bechmark dataset, (ii) Comparison to non-parametric models, and (iii) Simulations on the bechmark dataset.
 
