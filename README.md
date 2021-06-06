@@ -50,7 +50,7 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 
   * test_ComputeMI_kde_tahn_02.py
 
-* **Load the saved results from the local folder and generates Figure 10, Figure 11**
+* **Load the saved results from the local folder and generates Figure 10, Figure 11 in the paper**
   * show_ComputeMI_kde.py
 
 ### Comparing the proposed mutual information estimator to the emprical distribution and KDE
@@ -59,11 +59,17 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
   * test_ComputeMI_ReLU.py
 * **Comparing the three mutual information estimators in MLP2, and save results into local folders**
   * test_ComputeMI_Tanh.py
-* **Load the saved results from the local folder and generates Figure 12, Figure 13**
+* **Load the saved results from the local folder and generates Figure 12, Figure 13 in the paper**
   * show_ComputeMI_.py
   * Please change the value of the parameter 'activation_func' to show the results of MLP1 or MLP2.
 
 ### Activations are not i.i.d.
+
+* **Calculate the sample correlation between 5000 training samples and save results into local folder**
+  * test_mlp_mnist_train_after_new.py
+
+* **Visualize the sample correlation between 5000 training samples, and generate Figure 14 in the paper**
+  * show_mlp_mnist_train_after_new.py
 
 ## Simulations on the bechmark dataset, namely MNIST and Fashion-MNIST
 
