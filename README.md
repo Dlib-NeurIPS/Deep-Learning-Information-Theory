@@ -50,7 +50,7 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 * **Comparing the three mutual information estimators in MLP2, and save results into local folders**
   * test_ComputeMI_Tanh.py
 * **Load the saved results from the local folder and generates Figure 12, Figure 13 in the paper**
-  * show_ComputeMI_.py
+  * show_ComputeMI.py
   * Please change the value of the parameter 'activation_func' to show the results of MLP1 or MLP2.
 
 ### Activations are not i.i.d.
