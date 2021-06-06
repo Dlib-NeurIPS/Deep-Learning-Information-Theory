@@ -13,7 +13,7 @@ Please note that the code is senstive to the version of the above packages. To m
 
 All the codes are placed in the three folders: (i) Simulations on the bechmark dataset, (ii) Comparison to non-parametric models, and (iii) Simulations on the bechmark dataset.
 
-## Simulations on the bechmark dataset
+## Simulations on the bechmark dataset (Section 4 in the paper)
 ### test_MLP_Gibbs_IT.py 
 It generates the Figure 3, Figure 4, and Figure 5 in the paper.
 
@@ -27,7 +27,7 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
  * https://github.com/artemyk/ibsgd (Andrew Saxe, Artemy Kolchinsky, et al. On the information bottleneck theory of deep learning. In ICLR, 2018.)
  * https://github.com/ravidziv/IDNNs (Ravid. Shwartz-Ziv and Naftali Tishby, Opening the Black Box of Deep Neural Networks via Information, In Arxiv, 2017.)
 
-### Non-parametric models are senstive to hyper-parameters
+### Non-parametric models are senstive to hyper-parameters (Appendix G.1 in the paper)
 
 * **Study the effect of the hyper-parameter of empirical distributions, namely the bin size, on the mutual information estimation in MLP1 and MLP2, and save results into local folders**
   * test_ComputeMI_bin_relu_01.py
@@ -47,7 +47,7 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 * **Load the saved results from the local folder and generates Figure 10, Figure 11 in the paper**
   * show_ComputeMI_kde.py
 
-### Comparing the proposed mutual information estimator to the emprical distribution and KDE
+### Comparing the proposed mutual information estimator to the emprical distribution and KDE (Appendix G.2 in the paper)
 
 * **Comparing the three mutual information estimators in MLP1, and save results into local folders**
   * test_ComputeMI_ReLU.py
@@ -57,7 +57,7 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
   * show_ComputeMI.py
   * Please change the value of the parameter 'activation_func' to show the results of MLP1 or MLP2.
 
-### Activations are not i.i.d.
+### Activations are not i.i.d. (Appendix G.3 in the paper)
 
 * **Calculate the sample correlation between 5000 training samples and save results into local folder**
   * test_mlp_mnist_train_after_new.py
@@ -65,7 +65,7 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 * **Visualize the sample correlation between 5000 training samples, and generate Figure 14 in the paper**
   * show_mlp_mnist_train_after_new.py
 
-## Simulations on the bechmark dataset, namely MNIST and Fashion-MNIST
+## Simulations on the bechmark dataset, namely MNIST and Fashion-MNIST (Appendix H in the paper)
 
 ### test_MLP_Gibbs_IT_MNIST.py
 It generates the results in Appendix H.1
