@@ -29,7 +29,7 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 
 ### non-parametric models are senstive to hyper-parameters
 
-* **Study the effect of the hyper-parameter of empirical distributions, namely the bin size, on the mutual information estimation in MLP1 and MLP2, and save results into local folders **
+* **Study the effect of the hyper-parameter of empirical distributions, namely the bin size, on the mutual information estimation in MLP1 and MLP2, and save results into local folders**
   * test_ComputeMI_bin_relu_01.py
 
   * test_ComputeMI_bin_relu_02.py
@@ -43,7 +43,7 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 
 
 
-* **Studying the effect of the hyper-parameter of KDE, namely the noise variance, on the mutual information estimation in MLP1 and MLP2, and save results into local folders **
+* **Studying the effect of the hyper-parameter of KDE, namely the noise variance, on the mutual information estimation in MLP1 and MLP2, and save results into local folders**
   * test_ComputeMI_kde_relu_01.py
 
   * test_ComputeMI_kde_relu_02.py
