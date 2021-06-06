@@ -21,11 +21,6 @@ All the codes are placed in the three folders: (i) Simulations on the bechmark d
 ### test_MLP_Gibbs_IT.py 
 It generates the Figure 3, Figure 4 (Right), and Figure 5.
 
-
-2. Showing the distribution of the first fully connected hidden layer as Gibbs distribution.
-
-![mlp_f1_gibbs](Simulations/Img_MLP_F1_Gibbs.png)
-
 ## Comparison to non-parametric models
 
 ## Simulations on the bechmark dataset, namely MNIST and Fashion-MNIST
