@@ -29,3 +29,10 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 
 ## Simulations on the bechmark dataset, namely MNIST and Fashion-MNIST
 
+### test_MLP_Gibbs_IT_MNIST.py
+It generates the results in Appendix H.1
+
+### test_MLP_Gibbs_IT_FMNIST.py
+It generates the results in Appendix H.2
+
+
