@@ -13,7 +13,7 @@ Numpy
 
 Matplotlib
 
-Please note that the code is senstive to the version of the above packages. To make sure the code can be successfully reimpelmented, we recommond to create an anaconda virtual environment to install all the above packages with the aforementioned versions.
+Please note that the code is senstive to the version of the above packages. To make sure the code can be successfully reimpelmented, we recommond to create an anaconda virtual environment, in which install all the packages with the aforementioned versions.
 
 ## Simulations on the bechmark dataset
 ### test_MLP_Gibbs.py has two functionalities
@@ -31,8 +31,3 @@ We design a MLP with two fully connected hidden layers. The first hidden layer h
 
 ## Simulations on the bechmark dataset, namely MNIST and Fashion-MNIST
 
-
-
-
-
-## Entropy and Mutal information calculation
