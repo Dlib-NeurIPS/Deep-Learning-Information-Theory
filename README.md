@@ -27,7 +27,7 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 
 ## Comparison to non-parametric models
 
-### non-parametric models are senstive to hyper-parameters
+### Non-parametric models are senstive to hyper-parameters
 
 * **Study the effect of the hyper-parameter of empirical distributions, namely the bin size, on the mutual information estimation in MLP1 and MLP2, and save results into local folders**
   * test_ComputeMI_bin_relu_01.py
@@ -41,8 +41,6 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 * **Load the saved results from the local folder and generates Figure 8, Figure 9**
   * show_ComputeMI_bin.py
 
-
-
 * **Studying the effect of the hyper-parameter of KDE, namely the noise variance, on the mutual information estimation in MLP1 and MLP2, and save results into local folders**
   * test_ComputeMI_kde_relu_01.py
 
@@ -55,7 +53,16 @@ Please change the value of the parameter 'save_model_index' to visualize the lea
 * **Load the saved results from the local folder and generates Figure 10, Figure 11**
   * show_ComputeMI_kde.py
 
+### Comparing the proposed mutual information estimator to the emprical distribution and KDE
 
+* **Comparing the three mutual information estimators in MLP1, and save results into local folders**
+  * test_ComputeMI_ReLU.py
+* **Comparing the three mutual information estimators in MLP2, and save results into local folders**
+  * test_ComputeMI_Tanh.py
+* **Load the saved results from the local folder and generates Figure 12, Figure 13**
+  * show_ComputeMI_.py
+  * Please change the value of the parameter 'activation_func' to show the results of MLP1 or MLP2.
+  
 ## Simulations on the bechmark dataset, namely MNIST and Fashion-MNIST
 
 ### test_MLP_Gibbs_IT_MNIST.py
