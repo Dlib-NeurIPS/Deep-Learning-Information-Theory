@@ -21,7 +21,7 @@ Please change the value of the parameter 'n_filters' and 'n_neurons' to generate
 
 Please change the value of the parameter 'save_model_index' to visualize the learned weights in different epochs.
 
-## Comparison to non-parametric models
+## Comparison to non-parametric models (Appendix G in the paper)
 
 ### The code of emprical distribution and KDE are based on the previous work by Tishby and Kolchinsky, et al.
  * https://github.com/artemyk/ibsgd (Andrew Saxe, Artemy Kolchinsky, et al. On the information bottleneck theory of deep learning. In ICLR, 2018.)
