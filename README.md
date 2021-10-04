@@ -1,6 +1,6 @@
 
 # Deep Learning and Information Bottleneck Principle
-This repository contains the code of the paper "A Probabilistic Representation for Deep Learning:Delving into The Information Bottleneck Principle" submitted to NeurIPS 2021 for review. 
+This repository contains the code of the paper "A Probabilistic Representation for Deep Learning:Delving into The Information Bottleneck Principle" submitted to AAAI 2022 (fast track submission) for review. 
 
 ## Prerequisites
 * Python 3.7
